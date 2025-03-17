@@ -156,6 +156,10 @@ class _RegisterUserViewState extends State<RegisterUserView> {
                             },
                             child: Text("Register"),
                             color: Colors.lightGreen,
+                          ),
+                          MaterialButton(
+                            onPressed: () async {},
+                            child: Text('Sudah Punya Akun?'),
                           )
                         ],
                       ))
